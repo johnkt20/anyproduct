@@ -1,0 +1,46 @@
+openapi: 3.0.0
+
+info:
+  version: 0.0.1
+  title: products service
+
+tags:
+  - name: "Products"
+
+paths:
+
+  /store/products:
+    get:
+      summary: This to get all products
+      tags:
+        -  "store"
+
+      description: This is to get all products from store
+      operationId: getAllProducts
+      responses:
+        "200":
+          description: This means its ok
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/Product'
+
+components:
+  schemas:
+    Product:
+      description: This the product model
+      type: object
+      properties:
+        id:
+          description: This is the id of the product
+          type: string
+        name:
+          description: This is the name of the product
+          type: string
+        price:
+          description: This is the price of the product
+          type: string
+
+

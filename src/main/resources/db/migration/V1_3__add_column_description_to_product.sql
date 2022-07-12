@@ -1,0 +1,1 @@
+ALTER TABLE products.item ADD COLUMN ('description' varchar (255) DEFAULT NULL);
