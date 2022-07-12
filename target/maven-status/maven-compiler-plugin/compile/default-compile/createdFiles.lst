@@ -1,7 +1,0 @@
-com/yohannes/anyproduct/api/StoreApi.class
-com/yohannes/anyproduct/service/ProductService.class
-com/yohannes/anyproduct/models/Product.class
-com/yohannes/anyproduct/domain/Product.class
-com/yohannes/anyproduct/controller/ProductController.class
-com/yohannes/anyproduct/AnyproductApplication.class
-com/yohannes/anyproduct/dao/ProductDAO.class
